@@ -12,7 +12,7 @@ final class AppModel: ObservableObject {
     @Published var isOverlayVisible = true
     @Published var isAnimating = true
     @Published var fps = 30
-    @Published var size: Double = 200
+    @Published var size: Double = 70
     @Published var opacity: Double = 0.9
     @Published var launchAtLogin = SMAppService.mainApp.status == .enabled
     @Published var statusMessage = ""

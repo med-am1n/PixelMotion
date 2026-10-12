@@ -16,7 +16,7 @@ struct PixelMotionApp: App {
     private var appDelegate
 
     var body: some Scene {
-        MenuBarExtra("PixelMotion", systemImage: "sparkles") {
+        MenuBarExtra("PixelMotion", systemImage: "checkerboard.rectangle") {
             MenuContent(model: AppModel.shared)
         }
         .menuBarExtraStyle(.window)
